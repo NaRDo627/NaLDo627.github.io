@@ -20,5 +20,6 @@ Github Page 생성 방법은 [여기](http://blog.saltfactory.net/create-persona
 
 
 블로그 작성시 참고하면 좋을 것들
-- [마크다운](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+-  마크다운 : <https://gist.github.com/ihoneymon/652be052a0727ad59601>
+-  커스텀 도메인 설정 : <https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/>
 
