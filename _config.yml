@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: naruhodo627@gmail.com
 description: "대한민국 경기도 성남시 거주, 가천대학교 재학 중, 공부 많이 하려고 맘만먹는 공돌이"
 keyword: "Spring, Python, Java, C, C++, MFC, Github"
-url: ""              # your host, for absolute URL
+url: https://naldo627.github.io              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
