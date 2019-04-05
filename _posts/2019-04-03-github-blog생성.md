@@ -9,10 +9,6 @@ catalog: false
 tags:
     - Jekyll
     - 낙서장
-lastmod : 2019-04-03 12:00:00
-sitemap :
-    changefreq : daily
-    priority : 1.0
 ---
 
 > “Yeah It's on. ”

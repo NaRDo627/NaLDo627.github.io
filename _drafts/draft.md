@@ -10,10 +10,6 @@ tags:
     - 인공지능
     - 머신러닝
     - 과제
-lastmod : 2019-04-03 12:00:00
-sitemap :
-    changefreq : daily
-    priority : 1.0
 ---
 인공지능수업 과제로 홉필드 모델에 대한 실습 레포트 작성을 진행하게 되었다.
 
