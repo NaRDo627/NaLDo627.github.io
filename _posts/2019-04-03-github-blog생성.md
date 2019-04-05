@@ -9,6 +9,10 @@ catalog: false
 tags:
     - Jekyll
     - 낙서장
+lastmod : 2019-04-03 12:00:00
+sitemap :
+    changefreq : daily
+    priority : 1.0
 ---
 
 > “Yeah It's on. ”
@@ -18,8 +22,6 @@ tags:
 
 Github Page 생성 방법은 [여기](http://blog.saltfactory.net/create-personal-web-site-using-with-github-pages/)를 참고하였다.
 
-
-블로그 작성시 참고하면 좋을 것들
--  마크다운 : <https://gist.github.com/ihoneymon/652be052a0727ad59601>
--  커스텀 도메인 설정 : <https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/>
-
+> 블로그 작성시 참고하면 좋을 것들<br>
+> - 마크다운 : <https://gist.github.com/ihoneymon/652be052a0727ad59601><br>
+> - 커스텀 도메인 설정 : <https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/>
