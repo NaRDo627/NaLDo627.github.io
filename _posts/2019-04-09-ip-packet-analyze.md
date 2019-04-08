@@ -15,7 +15,7 @@ tags:
 
 ## 개요
 
-데이터 통신 수업에서 IP 패킷 분석에 관한 과제를 받았다. 풀어야할 문제는 다음과 같다.
+데이터 통신 수업에서 IP 패킷 분석에 관한 과제를 받았다. 과제 내용은 pingplotter 혹은 traceroute로 IP 패킷을 요청한 내용을 Wireshark로 캡쳐한 후 질문에 답해야 하는 것이다. <br>  풀어야할 문제는 다음과 같다.
 
 ****
 1. Select the first ICMP Echo Request message sent by your computer, and expand
