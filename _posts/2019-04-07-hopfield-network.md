@@ -6,6 +6,7 @@ date : 2019-04-07 01:34:55 +0900
 author:     "날도"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
+catalog: true
 tags: 
     - 인공지능
     - 머신러닝
@@ -69,7 +70,7 @@ $$
 써놓고 보니 웃기긴 한데, 위의 학습이 제대로만 된다면 모든 한글 음절에 대해서 학습도 가능할 것이다.<br>
 파이썬 소스코드는 다음과 같다.
 
-{% highlight python %}
+```python
 
 from tkinter import *
 import copy
@@ -265,7 +266,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-{% endhighlight %}
+```
 
 패턴은 아래와 같이 학습시켰다. 원래는 0이 아니라 -1이 맞지만 입력하기 편하게 0으로 표현했다(읽어들이면서 바꾸면 되니까..). 
 
