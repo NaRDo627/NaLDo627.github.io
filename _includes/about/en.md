@@ -1,4 +1,4 @@
-> It's action then talk - Vigil from R6Siege
+> It's action than talk - Vigil from R6Siege
 
 Hello. My name is Hyunkook Park, a.k.a NaLDo, 24, and I made this blog because my head got messed up.<br>
 I'm senior of my university. I thought I've done my study pretty much so far, but I don't have nothing to proof. By then, I came up with IT Blog.<br>
