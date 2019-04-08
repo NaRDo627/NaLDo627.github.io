@@ -19,5 +19,5 @@ For now, I'll post regularly when I learn or study something.
 
 
 > Profile link
-> - Github : https://naldo627.github.io
-> - Kmong : https://kmong.com/@%EA%B5%AC%EA%B8%B0
+> - Github : <https://naldo627.github.io>
+> - Kmong : <https://kmong.com/@%EA%B5%AC%EA%B8%B0>
