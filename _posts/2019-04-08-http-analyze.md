@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "HTTP 분석 예제"
+title:  "HTTP 분석 실습"
 subtitle:  "데이터 통신"
 date:   2019-04-08 17:00:00 +0900
 author:     "날도"
 header-img: "img/post-bg-2015.jpg"
+catalog: true
 tags: 
     - 데이터 통신
     - HTTP
