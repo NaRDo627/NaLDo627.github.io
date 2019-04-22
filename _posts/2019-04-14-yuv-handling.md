@@ -10,6 +10,7 @@ catalog: true
 tags: 
     - 영상처리
     - 과제
+    - C/C++
 ---
 
 ## 개요
