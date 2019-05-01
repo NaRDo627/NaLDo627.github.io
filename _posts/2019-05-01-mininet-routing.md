@@ -11,6 +11,7 @@ tags:
     - 데이터 통신
     - Mininet
     - 네트워크
+    - 과제
 ---
 
 데이터 통신 과제로 Mininet의 routing table 에 대한 실습을 하게 되었다.
