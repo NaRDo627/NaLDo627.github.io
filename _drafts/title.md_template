@@ -5,6 +5,8 @@ subtitle:  ""
 date:   2020-01-01 12:00:00 +0900
 author:     "날도"
 header-img: "img/post-bg-2015.jpg"
+mathjax: true
+catalog: true
 tags: 
     - 
 ---
