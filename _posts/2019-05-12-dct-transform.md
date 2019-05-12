@@ -21,6 +21,7 @@ DCT 변환은 이산 코사인 변환이라고도 하며, 영상 압축을 위�
 ![(변환식)](/img/in-post/post-dct-transform/1.png)
 
 또한, 역 DCT 변환식은 다음과 같이 쓴다.
+
 $$
 INPUT_{ij} = \sum^{N-1}_{x=0}\sum^{N-1}_{y=0}C_{x} \times C_{y} \times OUTPUT_{xy} \times \cos{\frac{(2j+1)y\pi}{2N} } \times  \cos{\frac{(2i+1)x\pi}{2N} }
 $$
