@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Naver Campus Hackday 2019 참가 후기"
+title:  "Naver Campus Hackday Summer 2019 참가 후기"
 subtitle:  "해커톤 참가기"
 date:   2019-05-29 10:00:00 +0900
 author:     "날도"
