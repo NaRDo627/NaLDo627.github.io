@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "자료구조 정리"
-subtitle:  "기술면접대비"
+subtitle:  "자료구조"
 date:   2019-06-01 16:00:00 +0900
 author:     "날도"
 header-img: "img/post-bg-2015.jpg"
@@ -101,4 +101,4 @@ Binary Heap은 배열에 기반한 완전 이진탐색트리이며, Max-Heap과 
 ## Graph
 추후 업데이트 예정!!
 
-주) HashTable, Graph는 설명할 게 많아서 추후 포스트 하게따!
+주) HashTable, Graph는 설명할 게 많아서 추후 포스트 하게따! 수~목 중으로.. 또한 삽입과 삭제 과정 익혀가야겠다. 특히 트리..
