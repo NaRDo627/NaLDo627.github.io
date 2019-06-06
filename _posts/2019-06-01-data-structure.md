@@ -67,6 +67,8 @@ Naver Campus Hackday 2019 우수 참가자로 선정되어, 네이버 계열사�
 
 (이미지 출처 : <https://songeunjung92.tistory.com/31>)
 
+평균 탐색시간은 O(logN), 최악 탐색시간은 O(N)
+
 #### Red Black Tree
 RBT(Red-Black Tree)는 위에서 설명한 `Rebalancing`기법의 하나로, 기존 이진탐색트리의 삽입, 삭제, 탐색의 비효율성을 개선한 방법이다. RBT는 다음과 같은 규칙을 따른다.
 
@@ -96,9 +98,34 @@ Binary Heap은 배열에 기반한 완전 이진탐색트리이며, Max-Heap과 
 (이미지 출처 : <https://ieatt.tistory.com/40>)
 
 ## HashTable
-추후 업데이트 예정!!
+HashTable은 내부적으로 배열을 사용하며, 평균적으로 빠른 탐색속도(O(1))를 갖는다. 평균적으로라는 의미는 충돌을 고려하지 않았을 때이다. Key값을 해시함수를 통하여 인덱스로 변환 후에, 그 인덱스에 집어 넣는다. 만약 다른 Key값을 해시함수를 통과시켰는데 같은 인덱스가 나온다면, 그걸 충돌이라고 한다. <br>
+충돌 해소법(Resolve Conflict) 방법에는 기본적인 두 가지 방법이 있다.
+
+1. Open Address 방식 (개방 주소법)<br>
+충돌 발생 시, 다른 인덱스를 찾는다. <br>
+Linear Probing : 순차적으로 탐색하여 다음 인덱스를 찾는다.<br>
+Quadratic Probing : 2차 함수를 이용해 탐색할 위치를 찾는다.<br>
+Double Hashing Probing : 충돌 발생시 새로운 해시함수를 활용하여 주소를 찾는다.
+2. Separate Chaining 방식 (분리 연결법) <br>
+충돌 발생 시 다른 인덱스를 찾는 대신, 그 인덱스에다가 연결하는 방법.<br>
+연결 리스트를 이용하여 연결하는 방법과, Tree(RBT)를 이용하여 연결하는 방법이 있다. 두 방식 모두 Worst Case가 O(M)이다. 데이터의 크기가 크다면 Separate Chaining, 아니라면 Open Address 방식이 더 낫다.
+
+Hashmap의 Resize : 일정 개수이상 크기가 커지면, 해시 버킷의 크기를 두 배로 늘림.
 
 ## Graph
-추후 업데이트 예정!!
+정점과 간선의 집합이며, 일종의 Tree이다.
 
-주) HashTable, Graph는 설명할 게 많아서 추후 포스트 하게따! 수~목 중으로.. 또한 삽입과 삭제 과정 익혀가야겠다. 특히 트리..
+Undirected와 Directed Graph가 있는데, 방향성 유무로 결정된다.
+
+Degree란 Undirectd Graph에서 정점에 연결된 간선의 개수이다. Directed Graph에서의 Degree는 방향성이 있기 때문에 둘로 나뉘는데, 나가는 간선의 개수는 Outdegree, 들어오는 간선의 개수를 Indegree라 한다.
+
+**가중치 그래프** 란 간선에 가중치를 둔 그래프, **부분 그래프** 란 한 그래프의 일부 정점 및 간선으로 이루어진 그래프.
+
+그래프의 구현 방법 : <br>
+
+1. 인접 행렬 : 정방 행렬을 사용하여 구현. 연결 관계를 O(1)로 파악 가능. 공간 복잡도는 O(2V) 
+2. 인접 리스트 : 리스트를 사용하여 구현. 정점간 연결 여부 파악애 오래 걸림. 공간 복잡도는 O(E + V)
+
+탐색 방법에는 깊이 우선 탐색(DFS, Depth First Search)와 너비 우선 탐색(BFS, Breadth First Search)이 있다. <br>
+깊이 우선 탐색은 말 그대로 깊숙히 들어가서 탐색하고 나오는 것이며, 유용한 자료구조는 Stack이다. <br>
+너비 우선 탐색은 임의의 한 정점에 대해 인접한 정점을 queue에 넣고(enqueue), dequeue연산에서 나온 하나의 정점으로 들어가서 그 정점의 인접한 정점을 다시 Queue에 넣어서 탐색하는 방식. BFS로 찾은 경로는 최단 경로이다.
