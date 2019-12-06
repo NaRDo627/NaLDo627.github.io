@@ -1,4 +1,17 @@
-# 카카오 인턴 합격 후기
+---
+layout: post
+title:  "카카오 인턴 합격 후기"
+subtitle:  "카카오 겨울 인턴십 2019"
+date:   2019-12-06 11:55:00 +0900
+author:     "날도"
+header-img: "img/post-bg-2015.jpg"
+mathjax: true
+catalog: true
+tags: 
+    - 낙서장
+    - 기술면접
+    - 면접
+---
 
 2019-12-05일자로, 꿈에도 그리던 카카오 2019 겨울 인턴십에 합격을 하였다.
 
