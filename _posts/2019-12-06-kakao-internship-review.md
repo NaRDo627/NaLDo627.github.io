@@ -21,7 +21,7 @@ tags:
 
 (사실 블로그 포스팅하려고 마크다운을 수동으로 작성하는 것도 귀찮아서 안 쓴 것도 있는데, 노션(Notion)을 사용하기 시작한 후로 마크다운 문서 작성이 엄청 편해져서, 앞으로는 노션으로 포스팅을 작성하고 Export해서 업로드 하는 식으로 작성할 예정)
 
-[https://careers.kakao.com/jobs/image/47](https://careers.kakao.com/jobs/image/47)
+![https://careers.kakao.com/jobs/image/47](https://careers.kakao.com/jobs/image/47)
 
 > 사실 지원 안하려고 했던 인턴십이었다.
 
