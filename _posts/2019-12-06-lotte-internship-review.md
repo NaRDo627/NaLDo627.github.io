@@ -8,9 +8,9 @@ header-img: "img/post-bg-2015.jpg"
 mathjax: true
 catalog: true
 tags: 
-    - 낙서장
     - 기술면접
     - 면접
+    - 후기
     - 불합격
 ---
 
