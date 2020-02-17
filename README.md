@@ -15,6 +15,7 @@
   - (주)와인소프트 - 인턴십 (2017.02 ~ 2017.12)
   - (주)위드캣 - 개발 아르바이트 (2018.06 ~ 현재)
 
+
 > 프로필 링크
 > - Github : <https://naldo627.github.io>
 > - Kmong : <https://kmong.com/@%EA%B5%AC%EA%B8%B0>
